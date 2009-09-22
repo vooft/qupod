@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="eject">res/media-eject.png</file>
+        <file alias="pause">res/media-playback-pause.png</file>
+        <file alias="play">res/media-playback-start.png</file>
+        <file alias="stop">res/media-playback-stop.png</file>
+        <file alias="record">res/media-record.png</file>
+        <file alias="seek_backward">res/media-seek-backward.png</file>
+        <file alias="seek_forward">res/media-seek-forward.png</file>
+        <file alias="skip_backward">res/media-skip-backward.png</file>
+        <file alias="skip_forward">res/media-skip-forward.png</file>
+        <file alias="shuffle">res/media-playlist-shuffle.png</file>
+        <file alias="delete">res/edit-delete.png</file>
+        <file alias="ipod">res/ipod_mount.png</file>
+        <file alias="exit">res/application-exit.png</file>
+        <file alias="image">res/image-x-generic.png</file>
+        <file alias="edit">res/document-edit.png</file>
+        <file alias="add">res/list-add.png</file>
+        <file alias="nocover">res/nocover.png</file>
+        <file alias="queue">res/hi48-action-media-track-queue-amarok.png</file>
+    </qresource>
+    <qresource prefix="/busy">
+        <file alias="frame00">res/busy/frame00.png</file>
+        <file alias="frame01">res/busy/frame01.png</file>
+        <file alias="frame02">res/busy/frame02.png</file>
+        <file alias="frame03">res/busy/frame03.png</file>
+        <file alias="frame04">res/busy/frame04.png</file>
+        <file alias="frame05">res/busy/frame05.png</file>
+        <file alias="frame06">res/busy/frame06.png</file>
+        <file alias="frame07">res/busy/frame07.png</file>
+        <file alias="frame08">res/busy/frame08.png</file>
+        <file alias="frame09">res/busy/frame09.png</file>
+        <file alias="frame10">res/busy/frame10.png</file>
+        <file alias="frame11">res/busy/frame11.png</file>
+    </qresource>
+</RCC>
