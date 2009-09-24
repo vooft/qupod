@@ -18,6 +18,11 @@
         <file alias="add">res/list-add.png</file>
         <file alias="nocover">res/nocover.png</file>
         <file alias="queue">res/hi48-action-media-track-queue-amarok.png</file>
+        <file alias="ok">res/dialog-ok.png</file>
+        <file alias="cancel">res/dialog-cancel.png</file>
+        <file alias="audiofile">res/audio-x-generic.png</file>
+        <file alias="insert_file">res/archive-insert.png</file>
+        <file alias="insert_directory">res/archive-insert-directory.png</file>
     </qresource>
     <qresource prefix="/busy">
         <file alias="frame00">res/busy/frame00.png</file>

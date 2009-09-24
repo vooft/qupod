@@ -40,6 +40,10 @@
         <number>0</number>
        </property>
        <widget class="QWidget" name="tab">
+        <attribute name="icon">
+         <iconset resource="qupod.qrc">
+          <normaloff>:/icons/play</normaloff>:/icons/play</iconset>
+        </attribute>
         <attribute name="title">
          <string>Music</string>
         </attribute>
@@ -64,11 +68,6 @@
           </widget>
          </item>
         </layout>
-       </widget>
-       <widget class="QWidget" name="tab_2">
-        <attribute name="title">
-         <string>Tab 2</string>
-        </attribute>
        </widget>
       </widget>
       <widget class="QWidget" name="verticalLayoutWidget">
@@ -296,7 +295,7 @@
      <x>0</x>
      <y>0</y>
      <width>615</width>
-     <height>23</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>

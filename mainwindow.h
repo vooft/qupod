@@ -12,6 +12,7 @@
 #include "cartiststreemodel.h"
 #include "cplaylistmodel.h"
 #include "caudioplayer.h"
+#include "caddfilesdialog.h"
 
 namespace Ui {
     class MainWindow;
@@ -74,6 +75,7 @@ private:
     CArtistsTreeModel *m_artistsTreeModel;
     CPlaylistModel *m_playlistModel;
     CAudioPlayer *m_player;
+    CAddFilesDialog *m_addFiles;
 
     QTimer *m_filterTimer;
 

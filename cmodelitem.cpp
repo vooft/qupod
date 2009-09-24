@@ -94,7 +94,7 @@ QVariant CModelItem::data(int role, int column)
         case ETrack:
         {
             QString result = m_manager->tracks().at(m_id).title;
-            if(m_manager->tracks().at(m_id).track_nr!=-1)
+            if(m_manager->tracks().at(m_id).track_nr)
                 result = QString::number(m_manager->tracks().at(m_id).track_nr) + " - " + result;
             return result;
         }
