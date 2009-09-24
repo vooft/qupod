@@ -11,7 +11,7 @@
 
 struct CAudioTrack
 {
-    CAudioTrack(quint32 i): id(i) { track_nr = -1; year=0; }
+    CAudioTrack(quint32 i): id(i) { track_nr = 0; year=0; }
     bool operator==(const CAudioTrack &s) const { return id==s.id; }
 
     quint32 id;

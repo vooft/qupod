@@ -19,6 +19,9 @@ MainWindow::MainWindow(QWidget *parent) :
 
     m_set = new QSettings("qupod.ini", QSettings::IniFormat, this);
 
+    m_addFiles = new CAddFilesDialog(ui->tabWidget);
+    ui->tabWidget->addTab(m_addFiles, QIcon(":/icons/add"), tr("Add files to iPod"));
+
     m_trayIcon = new QSystemTrayIcon(QIcon(":/icons/ipod"), this);
     m_trayIcon->setContextMenu(new QMenu(tr("Qupod"), this));
     m_trayIcon->show();

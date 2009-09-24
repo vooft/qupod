@@ -184,6 +184,10 @@ bool CIpodManager::load(QString path)
     for(int i=0; i<count; i++)
         sortTracks(m_albums[i].tracks);
 
+    count = m_tracks.count(); // too bad
+    for(int i=0; i<count; i++)
+        m_tracks[i].artist_id = findArtist(m_tracks.at(i).artist);
+
     sortAlbums(m_compilations);
 
     debug("Artists count: " + QString::number(m_artists.count()));
@@ -394,7 +398,7 @@ void CIpodManager::saveTrack(int id)
     itrack->track_nr = track.track_nr;
     itrack->year = track.year;
 
-    //itrack->compilation = track.isCompilation ? 0x1 : 0x0;
+    itrack->compilation = track.isCompilation ? 0x1 : 0x0;
 
     m_wasChanged = true;
     emit changed();
